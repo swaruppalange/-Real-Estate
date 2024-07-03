@@ -1,0 +1,52 @@
+.box-container{
+    display: flex;
+    border-radius:  .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    border: .1rem solid rgba(0,0,0,.2);
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer .footer-container {
+    border-radius:  .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    border: .1rem solid rgba(0,0,0,.2);
+    padding: 2rem;
+}
+
+.footer .footer-container .box-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap:  1.5rem;
+}
+
+.footer .footer-container .box-conatiner .box{
+    font-size:  2.5rem;
+    color: #333;
+    padding: .5rem 0;
+}
+.footer .footer-container .box-conatiner .box h3{
+    font-size:  1.5rem;
+    color: #666;
+    padding: .5rem 0;
+}
+.footer .footer-container .box-conatiner .box a:hover{
+    color:var(--red);
+    text-decoration: underline;
+}
+
+.footer .footer-container .credit {
+    margin-top: 2rem;
+    padding:  .5rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    border-top: .1rem solid rgba(0,0,0,.1);
+}
+
+.footer .footer-container .credit  span {
+    color: var(--red);
+}
